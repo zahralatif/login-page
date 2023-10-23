@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+span {
+  font-size: 0.8rem;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  width: 370px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input__field {
+  border: 1px solid #000;
+  border-radius: 0.5rem;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.pass__field {
+  border: 1px solid #000;
+  border-radius: 0.5rem;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pass__field-first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.forgot__pass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.forgot {
+  font-weight: 600;
+}
+
+.remember {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login__icon {
+  color: blue;
+}
+
+form input {
+  border: none;
+  outline: none;
+}
+
+.show__hide{cursor: pointer;}
+
+.login__button {
+  background-color: blue;
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 1rem;
+  padding: 5px;
+  font-weight: 500;
+}

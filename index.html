@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+    <title>Login</title>
+  </head>
+
+  <body>
+    <section class="container">
+      <h1>Login</h1>
+      <form action="#">
+        <div class="input__field">
+          <i class="bx bxs-user login__icon"></i>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Username or Email"
+          />
+        </div>
+        <div class="pass__field">
+          <div class="pass__field-first">
+            <i class="bx bxs-lock-alt login__icon"></i>
+            <input
+              type="password"
+              name="name"
+              id="name"
+              placeholder="Enter your Password"
+            />
+          </div>
+          <i class="bx bx-hide show__hide"></i>
+        </div>
+        <div class="forgot__pass">
+          <div class="remember">
+            <input type="checkbox" name="forgot" id="forgot" /><span
+              >Remember me</span
+            >
+          </div>
+          <a href="#" class="forgot">Forgot Password?</a>
+        </div>
+        <button class="login__button">Login</button>
+      </form>
+      <p>Don't have an account? <a href="#">Sign up</a></p>
+    </section>
+  </body>
+</html>
